@@ -25,6 +25,10 @@ dependencies {
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:29.0-jre")
+
+    testImplementation("com.h2database:h2:1.4.200")
+
+    testImplementation("org.assertj:assertj-core:3.19.0")
 }
 
 application {

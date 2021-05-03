@@ -63,10 +63,16 @@ try (Connection connection = DriverManager.getConnection("jdbc:derby:myschema"))
 ```
 
 
-## `PreparedStatement`
+## PreparedStatement
+
+- `statement.setString(1, "value")`
+- `statement.setInt(1, 1000)`
+- `statement.setNull(1)`
+- `statement.setString(1, "value")`
 
 
-## `CallableStatement`
+
+## CallableStatement
 
 
 ## JDBC exceptions
