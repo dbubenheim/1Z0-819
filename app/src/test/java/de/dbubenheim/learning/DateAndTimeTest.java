@@ -15,9 +15,22 @@ public class DateAndTimeTest {
     @Test
     public void testLocalDateTime() {
 
-        final LocalDateTime localDateTime = LocalDateTime.now();
+        LocalDateTime now = LocalDateTime.now();
+        LocalDateTime localDateTime = LocalDateTime.of(2020, 1, 10, 21, 55, 33, 123);
+        assertThat(localDateTime.getNano()).isEqualTo(123);
+        assertThat(localDateTime.getSecond()).isEqualTo(33);
+        assertThat(localDateTime.getMinute()).isEqualTo(55);
+        assertThat(localDateTime.getHour()).isEqualTo(21);
+        assertThat(localDateTime.getDayOfMonth()).isEqualTo(10);
+        assertThat(localDateTime.getMonthValue()).isEqualTo(1);
+        assertThat(localDateTime.getYear()).isEqualTo(2020);
 
-        LocalDateTime.of(2020, 1, 10, 21, 55);
+        LocalDateTime ldt1 = LocalDateTime.of(2020, 1, 1, 1, 1, 1, 1);
+        LocalDateTime ldt2 = LocalDateTime.of(2020, 1, 1, 1, 1, 1, 2);
+        assertThat(ldt1.isAfter(ldt2)).isFalse();
+        assertThat(ldt2.isAfter(ldt1)).isTrue();
+        assertThat(ldt2.isEqual(ldt1)).isFalse();
+        assertThat(ldt1.isEqual(ldt1)).isTrue();
     }
 
     @Test
