@@ -33,3 +33,19 @@ You can set up the project into an IDE by importing the folder. The following co
 ```
 idea 1Z0-819
 ```
+
+### Notes
+1. [Exam Topics](app/src/main/resources/00-exam-topics/00-exam-topics.md)
+1. [Working with Java data Types](app/src/main/resources/01-working-with-java-data-types/)
+1. [Controlling Program Flow](app/src/main/resources/02-controlling-program-flow/)
+1. [Java Object Oriented Approach](app/src/main/resources/03-java-object-oriented-approach)
+1. [Exception Handling](app/src/main/resources/04-exception-handling)
+1. [Working with Arrays and Collections](app/src/main/resources/05-working-with-arrays-and-collections)
+1. [Working with Lambda Expressions and Streams](app/src/main/resources/06-working-with-streams-and-lambda-expressions/06-working-with-streams-and-lambda-expressions.md)
+1. [Java Platform Module System](app/src/main/resources/07-java-platform-module-system)
+1. [Concurrency](app/src/main/resources/08-concurrency)
+1. [Java IO API](app/src/main/resources/09-java-io-api)
+1. [Secure Coding in Java SE Applications](app/src/main/resources/10-secure-coding-in-java--se-applications)
+1. [Database APplications with JDBC](app/src/main/resources/11-database-applications-with-jdbc/11-database-applications-with-jdbc.md)
+1. [Localization](app/src/main/resources/12-localization/12-localization.md)
+1. [Annotations](app/src/main/resources/13-annotations)
