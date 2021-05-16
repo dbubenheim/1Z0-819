@@ -28,7 +28,6 @@
 - Sort collections and arrays using Comparator and Comparable interfaces
 
 ## Working with Streams and Lambda expressions
-
 - Implement functional interfaces using lambda expressions, including interfaces from the java.util.function package
 - Use Java Streams to filter, transform and process data
 - Perform decomposition and reduction, including grouping and partitioning on sequential and parallel streams
@@ -38,7 +37,6 @@
 - Declare, use, and expose modules, including the use of services
 
 ## Concurrency
-
 - Create worker threads using Runnable and Callable, and manage concurrency using an ExecutorService and java.util.concurrent API
 - Develop thread-safe code, using different locking mechanisms and java.util.concurrent API
 
@@ -47,7 +45,7 @@
 - Implement serialization and deserialization techniques on Java objects
 - Handle file system objects using java.nio.file API
 
-## Secure Coding in Java SE Application
+## Secure Coding in Java SE Applications
 - Develop code that mitigates security threats such as denial of service, code injection, input validation and ensure data integrity
 - Secure resource access including filesystems, manage policies and execute privileged code
 
