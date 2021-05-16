@@ -1,6 +1,9 @@
 # 1Z0-819
 My very own exercises as a preparation for the [Java SE 11 Developer Certification](https://education.oracle.com/product/pexam_1Z0-819)
 
+The goal is to earn a digital badge
+![badge](app/src/main/resources/images/java-certification-1z0-819-exam.png)
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/dbubenheim/advent-of-code-2020?style=for-the-badge)
 ![Travis (.org)](https://img.shields.io/travis/dbubenheim/advent-of-code-2020?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/dbubenheim/advent-of-code-2020?label=license&style=for-the-badge)
